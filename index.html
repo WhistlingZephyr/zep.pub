@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="zep.pub" />
+        <link rel="canonical" href="https://zep.pub" />
+        <meta property="og:url" content="https://zep.pub" />
+        <meta
+            name="description"
+            content="The personal site & soon-to-be blog of WhistlingZephyr"
+        />
+        <meta
+            property="og:description"
+            content="The personal site & soon-to-be blog of WhistlingZephyr"
+        />
+        <title>zep.pub</title>
+        <style>
+            :root {
+                --background-primary: hsl(208deg 37% 10%);
+                --text-primary: hsl(212deg 46% 93% / 92.7%);
+                --control-background-primary: hsl(207deg 33% 13%);
+                --control-background-hover: hsl(209deg 31% 16%);
+                --control-background-active: hsl(208deg 30% 20%);
+                --control-border: hsl(208deg 27% 32%);
+            }
+            * {
+                box-sizing: border-box;
+            }
+            html,
+            body {
+                height: 100%;
+            }
+            body,
+            h1,
+            h2 {
+                margin: 0;
+            }
+            body {
+                line-height: 1.5;
+                background-color: var(--background-primary);
+                color: var(--text-primary);
+                font-family: system-ui;
+            }
+            body,
+            main,
+            section {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            main {
+                flex-grow: 1;
+                gap: 2.5em;
+                font-size: 1em;
+            }
+            h1 {
+                font-size: 3em;
+            }
+            h2 {
+                font-size: 1.25em;
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+            .social {
+                display: flex;
+                align-items: center;
+                gap: 0.5em;
+                padding: 0.5em 0.75em;
+                border: 1px solid var(--control-border);
+                border-radius: 0.75em;
+                background-color: var(--control-background-primary);
+            }
+            .social:hover {
+                background-color: var(--control-background-hover);
+            }
+            .social:active {
+                background-color: var(--control-background-active);
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section>
+                <a href="/">
+                    <h1>zep.pub</h1>
+                </a>
+                <h2>The personal site & soon-to-be blog of WhistlingZephyr</h2>
+            </section>
+
+            <section>
+                <a class="social" href="https://github.com/WhistlingZephyr">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="48"
+                        height="48"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                    </svg>
+                    @WhistlingZephyr
+                </a>
+            </section>
+        </main>
+    </body>
+</html>
